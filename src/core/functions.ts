@@ -86,4 +86,4 @@ async function retry<T>(
   throw new Error("Retry failed unexpectedly");
 }
 
-export { debounce, throttle, retry };
+export { debounce, throttle, retry,wait };
