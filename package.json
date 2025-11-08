@@ -1,0 +1,29 @@
+{
+  "name": "ticktools",
+  "version": "1.0.0",
+  "description": "A lightweight TypeScript utility library for time-based functions like debounce, throttle, retry and more.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "release": "npm run build && npm version patch && npm publish --access public",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "utility",
+    "time",
+    "debounce",
+    "throttle",
+    "retry",
+    "typescript",
+    "npm-package",
+    "performance"
+  ],
+  "author": "Rayen Oueslati",
+  "license": "MIT",
+  "devDependencies": {
+    "globals": "^16.5.0",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3"
+  }
+}
