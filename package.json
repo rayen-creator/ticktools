@@ -1,6 +1,6 @@
 {
   "name": "ticktools",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "type": "module",
   "description": "A lightweight TypeScript utility library for time-based functions like debounce, throttle, retry and more.",
   "main": "dist/index.js",
